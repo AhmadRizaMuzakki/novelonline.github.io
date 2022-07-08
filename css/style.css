@@ -60,7 +60,6 @@ h2{
     display: flex;
     margin: 10px;
     margin-left: 10px;
-    background-color: rgb(31, 31, 31) ;
     height: 470px;
     width: 100%;
     overflow-y: hidden;
@@ -102,73 +101,4 @@ h2{
     background-color: rgb(7, 255, 255);
     color: rgb(0, 0, 0);
 }
-.kotak2 .book2{
-    display: block;
-    height: 470px;
-    width: 300px;
-    align-items: center;
-    justify-content: center;
-}
-.kotak2 .book2 img{
-    display: block;
-    height: 400px;
-    width: 270px;
-    justify-content: center;
-    align-items: center;
-    
-}
-.kotak2 .book2 p{
-    display: flex;
-    position: relative;
-    background-color: rgb(244, 7, 7);
-    color: rgb(255, 255, 255);
-    height: 40px;
-    width: 280px;
-    border-radius: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 20px;
-    align-items: center;
-    justify-content: center;
-}
-.kotak2 .book2 p:hover{
-    transform: scale(1.1);
-    background-color: rgb(7, 255, 255);
-    color: rgb(0, 0, 0);
-}
-.kotak3 .book3{
-    display: block;
-    height: 470px;
-    width: 300px;
-    align-items: center;
-    justify-content: center;
-}
-.kotak3 .book3 img{
-    display: block;
-    height: 400px;
-    width: 270px;
-    animation: blink 3s ease-in-out ;
-}
-.kotak3 .book3 p{
-    display: flex;
-    position: relative;
-    background-color: rgb(244, 7, 7);
-    color: rgb(255, 255, 255);
-    height: 40px;
-    width: 280px;
-    border-radius: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 20px;
-    align-items: center;
-    justify-content: center;
-}
-.kotak3 .book3 p:hover{
-    transform: scale(1.1);
-    background-color: rgb(7, 255, 255);
-    color: rgb(0, 0, 0);
-}
+
