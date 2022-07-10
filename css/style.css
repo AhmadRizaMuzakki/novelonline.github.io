@@ -16,17 +16,6 @@ nav{
     width: 100%;
     background-color: rgb(20, 18, 18);
 }
-
-nav ul{
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    justify-content: left;
-    align-items:center;
-    text-align: center;
-    color: rgb(255, 255, 255);
-}
 li{
     display: flex;
     font-size: 40px;
@@ -76,11 +65,12 @@ h2{
     display: block;
     height: 400px;
     width: 280px;
+    border-radius: 10px;
 }
 .kotak1 .book1 img:hover{
     transform: scale(1.1);
 }
-.kotak1 .book1 p{
+.kotak1 .book1 a{
     display: flex;
     position: relative;
     background-color: rgb(244, 7, 7);
@@ -92,11 +82,12 @@ h2{
     font-weight: bold;
     text-transform: capitalize;
     text-align: center;
+    text-decoration: none;
     font-size: 20px;
     align-items: center;
     justify-content: center;
 }
-.kotak1 .book1 p:hover{
+.kotak1 .book1 a:hover{
     transform: scale(1.1);
     background-color: rgb(7, 255, 255);
     color: rgb(0, 0, 0);
