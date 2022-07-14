@@ -9,7 +9,7 @@ body{
     /* responsive */
     max-width: 100%;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: scroll;
     background-color: rgb(54, 50, 50);
     font-family: 'Poppins', sans-serif;
 }
