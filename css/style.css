@@ -9,7 +9,7 @@ body{
     /* responsive */
     max-width: 100%;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
     background-color: rgb(54, 50, 50);
     font-family: 'Poppins', sans-serif;
 }
@@ -29,6 +29,10 @@ header {
     align-items: center; */
     width: 100%;
     height: 10vh;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: scroll;  
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .3);
 }
 
 .nav-wrapper {
@@ -39,8 +43,8 @@ header {
     padding: 20px;
     width: 100%;
     height: 100%;
-    background-color: #222;
-    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .3);
+    /* background-color: #222; */
+    /* box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .3); */
 }
 
 .brand {
@@ -71,21 +75,26 @@ header {
     list-style-type: none;
     padding: 15px;
     border-radius: 5px;
+    margin-left: 15px;
 }
 
 .navbar li a {
     color: #F0F5F9;
     text-decoration: none;
+    /* font-size: 25px; */
+    font-weight: bold;
 }
 
 .navbar li:hover {
     background-color: #52616B;
     transition: all 0.2s ease-in-out;
+    color: #fff;
 }
 
 .active {
     background-color: #EB1D36;
     color: #222;
+    color: #fff;
 }
 
 /* NavBar Section, End */
