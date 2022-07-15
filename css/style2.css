@@ -1,86 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-body{
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    background: #2b2b2b;
-    overflow-y: scroll;
+body {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  background: #2b2b2b;
+  overflow-y: scroll;
 }
 
 /* NavBar Section, Start */
 
 .nav-container {
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    width: 100%;
-    height: 10vh;
-    font-family: 'Poppins', sans-serif;
-    overflow-x: auto;  
-    overflow-y: hidden;
-    background-color: #222;
-    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .3);
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  font-family: "Poppins", sans-serif;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background-color: #222;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.3);
 }
 
 .nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 20px;
-    padding: 20px;
-    width: 100%;
-    height: 100%;
-    /* background-color: #222; */
-    /* box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .3); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
 }
 
 .brand {
-    display: flex;
-    flex-direction: row;
-    font-size: 1.5em;
-    padding: 15px 15px 15px 18px;
-    text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+  padding: 15px 15px 15px 18px;
+  text-transform: capitalize;
 }
 
 .first {
-    color: #EB1D36;
-    font-weight: 600;
+  color: #eb1d36;
+  font-weight: 600;
 }
 
 .last {
-    color: #FFDD00;
-    font-weight: 500;
+  color: #ffdd00;
+  font-weight: 500;
+}
+
+.name {
+  letter-spacing: 1.3px;
 }
 
 .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar li {
-    list-style-type: none;
-    padding: 15px;
-    border-radius: 5px;
-    margin-left: 15px;
+  list-style-type: none;
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 15px;
 }
 
 .navbar li a {
-    color: #F0F5F9;
-    text-decoration: none;
-    /* font-size: 25px; */
-    font-weight: bold;
+  color: #f0f5f9;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .navbar li:hover {
-    background-color: #6d8697;
-    transition: all 0.2s ease-in-out;
-    color: #fff;
+  background-color: #eb1d36;
+  transition: all 0.2s ease-in-out;
+  color: #000;
 }
 
 /* .active {
@@ -91,122 +91,119 @@ body{
 /* NavBar Section, End */
 
 .list-halaman {
-    display: flex;
-    font-size: 40px;
-    font-weight: bold;
-    padding-left: 50px;
-    padding-top: 50px ;
-    color: rgb(255, 255, 255);
-    justify-content: left;
-    align-items: left;
+  display: flex;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-top: 50px;
+  color: rgb(255, 255, 255);
+  justify-content: left;
+  align-items: left;
 }
 
 /* Container untuk judul, sinopsis, cover buku */
 .container {
-    position: relative;
-    margin-top: 200px;
-    margin-left: 250px;
-    background-color: #222222;  
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-    height: 600px;
-    box-shadow: 0px 17px 20px 3px rgba(0, 0, 0, .4);
-    border-radius: 12px;
+  position: relative;
+  margin-top: 200px;
+  margin-left: 250px;
+  background-color: #222222;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 600px;
+  box-shadow: 0px 17px 20px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
 }
 
 .container h1 {
-    display: block;
-    padding-top: 30px;
-    font-size: 50px;
-    font-weight: bold;
-    text-transform: capitalize;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    justify-content: center;
-    align-items: center;
+  display: block;
+  padding-top: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
 }
 
 .container .box1 {
-    display: flex;
-    position: relative;
-    padding: 50px 100px 50px 100px;
-    /* word-wrap: break-word; */
-    /* width: 100%; */
-    /* height: 100%; */
+  display: flex;
+  position: relative;
+  padding: 50px 100px 50px 100px;
 }
 
 /* Garis pembatas antara judul dan sinopsis buku */
 hr {
-    color: #232323;
-    height: 2px;
-    width: 75%;
-    text-align: center;
-    margin: auto;
-    margin-top: 15px;
+  color: #232323;
+  height: 2px;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
 }
 
-.container .box1 img{
-    width: 200px;
-    height: 300px;
+.container .box1 img {
+  width: 200px;
+  height: 300px;
 }
-.container .box1 p{
-    padding-left: 70px;
-    width: 100%;
-    height: 400px;
-    color: #ffff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 26px;
-    font-weight: bold;
-    letter-spacing: 1,5;
-    text-align: justify;
-    overflow-y: auto;
+.container .box1 p {
+  padding-left: 70px;
+  width: 100%;
+  height: 400px;
+  color: #ffff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 1, 5;
+  text-align: justify;
+  overflow-y: auto;
 }
-.container h2{
-    display: flex;
-    position: relative;
-    padding: 10px 40px 10px 40px;
-    margin: 30px 0px 0px 100px;
-    height: 50px;
-    width: 200px;
-    border-radius: 10px;
-    background-color: red;
-    color: #fff;
-    text-align: center;
-    box-shadow: 0px 5px 20px 0px rgb(202, 3, 3);
+.container h2 {
+  display: flex;
+  position: relative;
+  padding: 10px 40px 10px 40px;
+  margin: 30px 0px 0px 100px;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0px 5px 20px 0px rgb(202, 3, 3);
 }
-.wrapper{
-    position: relative;
-    margin: 80px auto 30px auto;
-    background-color: #222222;
-    width: 95%;
-    height: 800px;
-    box-shadow: 0px 17px 20px 3px rgba(0, 0, 0, .4);
-    border-radius: 12px;
+.wrapper {
+  position: relative;
+  margin: 80px auto 30px auto;
+  background-color: #222222;
+  width: 95%;
+  height: 800px;
+  box-shadow: 0px 17px 20px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
 }
 .wrapper .list h1 {
-    display: block;
-    /* position: absolute; */
-    padding: 20px 20px 20px 50px;
-    width: 100%;
-    /* height: 70px; */
-    background-color: grey;
-    text-transform: capitalize;
-    border-radius: 12px 12px 0 0;
+  display: block;
+  /* position: absolute; */
+  padding: 20px 20px 20px 50px;
+  width: 100%;
+  /* height: 70px; */
+  background-color: grey;
+  text-transform: capitalize;
+  border-radius: 12px 12px 0 0;
 }
 
 .list ul {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .list__box {
-    width: 95%;
-    margin: 20px auto 20px auto;
-    list-style-type: none;
-    background-color: #333333;
-    z-index: 10;
-    border-radius: 3px;
-    padding: 5px 5px 5px 20px;
+  width: 95%;
+  margin: 20px auto 20px auto;
+  list-style-type: none;
+  background-color: #333333;
+  z-index: 10;
+  border-radius: 3px;
+  padding: 5px 5px 5px 20px;
+  color: #ededed;
 }
