@@ -8,15 +8,17 @@
     <title>NovMan</title>
 
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- link CSS untuk Search Bar -->
+    <link rel="stylesheet" href="css/search-bar.css" />
+    <!-- link FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
   </head>
   <body>
-    <!-- <header>
-        <ul>
-            <li class="header">Baca Novel</li>
-        </ul>
-    </header> -->
-
-    <!-- NavBar -->
+    <!-- NavBar, Start -->
     <div class="nav-container">
       <nav class="nav-wrapper">
         <div class="brand">
@@ -31,6 +33,24 @@
         </ul>
       </nav>
     </div>
+    <!-- Navbar, End -->
+
+    <!-- Search Bar, Start -->
+    <div class="search-container">
+      <div class="search">
+        <input type="checkbox" id="check" />
+        <div class="search-box">
+          <input
+            type="text"
+            placeholder="Search here... (does not work! only as decoration)"
+          />
+          <label for="check" class="icon">
+            <i class="fas fa-search"></i>
+          </label>
+        </div>
+      </div>
+    </div>
+    <!-- Search Bar, End -->
 
     <!-- bagian novel terbaru -->
     <h2>terbaru</h2>

@@ -11,7 +11,7 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
-  background-color: rgb(54, 50, 50);
+  background-color: #363232;
   font-family: "Poppins", sans-serif;
 }
 
@@ -169,11 +169,12 @@ h2 {
   height: 40px;
   width: 280px;
   border-radius: 10px;
-  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Courier New", Courier, monospace; */
   font-weight: bold;
   text-transform: capitalize;
   text-align: center;
   text-decoration: none;
+  letter-spacing: 0.8px;
   font-size: 20px;
   align-items: center;
   justify-content: center;
