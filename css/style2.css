@@ -7,7 +7,7 @@
 }
 body {
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #2b2b2b;
   overflow-y: scroll;
 }
@@ -101,10 +101,10 @@ body {
   align-items: left;
 }
 
-/* Container untuk judul, sinopsis, cover buku */
+/* Container untuk judul, sinopsis, cover buku || Start */
 .container {
   position: relative;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-left: 250px;
   background-color: #222222;
   margin-left: auto;
@@ -114,9 +114,12 @@ body {
   box-shadow: 0px 17px 20px 3px rgba(0, 0, 0, 0.4);
   border-radius: 12px;
 }
+/* Container untuk judul, sinopsis, cover buku || End */
 
 .container h1 {
   display: block;
+  margin-left: 20px;
+  margin-right: 20px;
   padding-top: 30px;
   font-size: 50px;
   font-weight: bold;
@@ -129,7 +132,7 @@ body {
 
 .container .box1 {
   display: flex;
-  position: relative;
+  /* position: relative; */
   padding: 50px 100px 50px 100px;
 }
 
@@ -142,41 +145,49 @@ hr {
   margin: auto;
   margin-top: 15px;
 }
+
 .container .box1 img {
   width: 200px;
   height: 300px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
 }
 .container .box1 p {
   padding-left: 70px;
+  padding-right: 8px;
   width: 100%;
-  height: 400px;
+  height: 390px;
   color: #ffff;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
   font-weight: bold;
-  letter-spacing: 1, 5;
+  letter-spacing: 1;
   text-align: justify;
   overflow-y: auto;
 }
-.container h2 {
-  display: flex;
-  position: relative;
-  padding: 10px 40px 10px 40px;
-  margin: -100px 0px 0px 100px;
-  height: 50px;
-  width: 200px;
+
+/* Bookmark, Start */
+.container .box1 a {
+  position: absolute;
+  padding: 10px 48px 10px 48px;
+  /* margin: 0 auto 0 auto; */
+  bottom: 60;
   border-radius: 10px;
-  background-color: red;
+  background-color: #ff0000;
   color: #fff;
+  font-size: 20px;
   text-align: center;
-  box-shadow: 0px 5px 20px 0px rgb(202, 3, 3);
+  text-transform: capitalize;
+  text-decoration: none;
+  box-shadow: 0px 5px 20px 0px #ca0303;
 }
+/* Bookmark, End */
+
 .wrapper {
   position: relative;
   margin: 80px auto 30px auto;
   background-color: #222222;
   width: 95%;
-  height: 800px;
+  height: 900px;
   box-shadow: 0px 17px 20px 3px rgba(0, 0, 0, 0.4);
   border-radius: 12px;
 }
@@ -205,4 +216,64 @@ hr {
   border-radius: 3px;
   padding: 5px 5px 5px 20px;
   color: #ededed;
+  letter-spacing: 1.5px;
+}
+
+@media (max-width: 850px) {
+  .container {
+    height: 930px;
+  }
+  .container .box1 {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    /* justify-content: center; */
+  }
+  .container .box1 img {
+    display: block;
+    margin: auto;
+  }
+
+  .container .box1 a {
+    display: none;
+  }
+
+  .container .box1 p {
+    padding: 10px 10px 0px 10px;
+    margin: 40px 0 40px 0;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    height: 990px;
+  }
+}
+
+@media (max-width: 570px) {
+  .container .box1 {
+    /* margin: 50px 20px 50px 20px; */
+    padding: 50px 30px 50px 30px;
+  }
+
+  .container h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 374px) {
+  .container {
+    height: 1050px;
+  }
+
+  .container h1 {
+    font-size: 35px;
+  }
+
+  .container .box1 p {
+    font-size: 17px;
+    line-height: 25px;
+  }
 }
