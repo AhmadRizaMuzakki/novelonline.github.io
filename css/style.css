@@ -101,7 +101,7 @@ header {
 
 /* NavBar Section, End */
 
-.header {
+/* .header {
   display: flex;
   font-size: 40px;
   font-weight: bold;
@@ -110,7 +110,7 @@ header {
   color: rgb(255, 255, 255);
   justify-content: left;
   align-items: left;
-}
+} */
 
 h2 {
   display: flex;
