@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   /* responsive */
   max-width: 100%;
@@ -13,13 +14,6 @@ body {
   overflow-y: scroll;
   background-color: #363232;
   font-family: "Poppins", sans-serif;
-}
-
-header {
-  display: block;
-  height: 130px;
-  width: 100%;
-  background-color: rgb(20, 18, 18);
 }
 
 /* NavBar Section, Start */
@@ -51,6 +45,7 @@ header {
   font-size: 1.5em;
   padding: 15px 15px 15px 18px;
   text-transform: capitalize;
+  border-right: 2px solid #363232;
 }
 
 .first {
@@ -61,6 +56,7 @@ header {
 .last {
   color: #ffdd00;
   font-weight: 500;
+  margin-right: 20px;
 }
 
 .name {
@@ -101,17 +97,6 @@ header {
 
 /* NavBar Section, End */
 
-/* .header {
-  display: flex;
-  font-size: 40px;
-  font-weight: bold;
-  padding-left: 50px;
-  padding-top: 50px;
-  color: rgb(255, 255, 255);
-  justify-content: left;
-  align-items: left;
-} */
-
 h2 {
   display: flex;
   background-color: rgb(245, 151, 44);
@@ -126,46 +111,52 @@ h2 {
   border-top-right-radius: 20px;
   letter-spacing: 1.5px;
 }
+
 .container {
   background-color: rgb(19, 18, 18);
   padding: 2px;
-  height: 500px;
+  height: 470px;
   width: 100%;
   box-shadow: 0px 17px 20px 3px rgba(0, 0, 0, 0.4);
+  overflow-y: hidden;
+  overflow-x: scroll;
 }
+
 .wrapper {
   display: flex;
   margin: 10px;
   margin-left: 10px;
-  height: 470px;
+  height: 90%;
   width: 100%;
-  overflow-y: hidden;
-  overflow-x: scroll;
 }
+
 .kotak1 .book1 {
   display: block;
-  height: 470px;
+  height: 100%;
   width: 300px;
   align-items: center;
   justify-content: center;
 }
+
 .kotak1 .book1 img {
   display: block;
-  height: 400px;
-  width: 280px;
+  height: 90%;
+  width: 90%;
   border-radius: 10px;
 }
+
 .kotak1 .book1 img:hover {
   transform: scale(1.1);
   transition: all 0.4s ease-in-out;
 }
+
 .kotak1 .book1 a {
   display: flex;
   position: relative;
-  background-color: rgb(244, 7, 7);
-  color: rgb(255, 255, 255);
+  background-color: #f40707;
+  color: #ffffff;
   height: 40px;
-  width: 280px;
+  width: 271px;
   border-radius: 10px;
   /* font-family: "Courier New", Courier, monospace; */
   font-weight: bold;
@@ -177,9 +168,52 @@ h2 {
   align-items: center;
   justify-content: center;
 }
+
 .kotak1 .book1 a:hover {
   transform: scale(1.1);
   background-color: rgb(7, 255, 255);
   color: rgb(0, 0, 0);
   transition: all 0.4s ease-in-out;
+}
+
+/* For Mobile Friendly */
+@media (max-width: 850px) {
+  /* Navbar Section --Start */
+  .nav-container {
+    height: 8vh;
+  }
+
+  .nav-wrapper {
+    font-size: 16px;
+  }
+
+  .brand {
+    font-size: 1.3em;
+  }
+
+  .navbar li {
+    padding: 10px;
+  }
+  /* Navbar Section --End */
+
+  h2 {
+    font-size: 20px;
+    width: 175px;
+    height: 42px;
+  }
+
+  /* Novel Section --Start */
+  .container {
+    height: 340px;
+  }
+
+  .kotak1 .book1 {
+    width: 240px;
+  }
+
+  .kotak1 .book1 a {
+    width: 217px;
+  }
+
+  /* Novel Section --End */
 }
